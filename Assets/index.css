@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head {
+  text-align: center;
+  background-color: gray;
+  color: white;
+}
+
+.para {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.heading {
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+.content {
+  width: 30%;
+  border: 2px solid lightblue;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 79px 4px rgba(173, 216, 230, 0.74);
+  -webkit-box-shadow: 10px 10px 79px 4px rgba(173, 216, 230, 0.76);
+  -moz-box-shadow: 10px 10px 79px 4px rgba(173, 216, 230, 0.76);
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px 12px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.error {
+  display: none;
+  color: lightcoral;
+}
